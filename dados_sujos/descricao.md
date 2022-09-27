@@ -1,0 +1,3 @@
+- beatles.csv: nomes bem formatados, com alguns dados a mais
+- clean-lyrics.csv: nomes bem formatados, mas com letras a mais e com erros de formatação csv
+- TheBeatlesCleaned.csv: quantidade certa de músicas, mas com nomes mal formatados
