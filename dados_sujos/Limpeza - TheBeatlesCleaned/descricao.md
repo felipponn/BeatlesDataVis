@@ -1,1 +1,1 @@
-Os nomes de música foram padronizados de acordo com as listas de faixas da discografia da banda (https://en.wikipedia.org/wiki/The_Beatles#Discography), excluindo álbuns de compilação.
+Como esse arquivo continha as músicas principais, ele serviu de base para consolidação das bases de dados. Além disso, os nomes de música foram padronizados de acordo com as listas de faixas da discografia da banda (https://en.wikipedia.org/wiki/The_Beatles#Discography), excluindo álbuns de compilação.
