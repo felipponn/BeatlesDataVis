@@ -1,0 +1,1 @@
+Como clean-lyrics tinha delimitadores ambíguos (as vírgulas apareciam também nos nomes de músicas e em listagens de compositores), os delimitafores foram convertidos em pipelines, através do script corrige.py
