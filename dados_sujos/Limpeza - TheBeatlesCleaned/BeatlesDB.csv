@@ -1,4 +1,4 @@
-﻿year|album|song|danceability|energy|speechiness|acousticness|liveness|valence|duration_ms
+year|album|song|danceability|energy|speechiness|acousticness|liveness|valence|duration_ms
 1963|Please Please Me|I Saw Her Standing There|0.491|0.801|0.0361|0.27|0.0665|0.971|173947
 1963|Please Please Me|Misery|0.591|0.605|0.0413|0.707|0.309|0.882|108547
 1963|Please Please Me|Anna (Go to Him)|0.608|0.565|0.0336|0.635|0.0601|0.835|177133
@@ -14,7 +14,7 @@
 1963|Please Please Me|There's a Place|0.455|0.582|0.0292|0.629|0.172|0.927|110493
 1963|Please Please Me|Twist and Shout|0.482|0.849|0.0452|0.641|0.0414|0.937|155227
 1963|With The Beatles|It Won't Be Long|0.472|0.673|0.0318|0.284|0.206|0.862|133387
-1963|With The Beatles|All I'Ve Got to Do|0.49|0.579|0.0344|0.217|0.0644|0.879|122573
+1963|With The Beatles|All I've Got to Do|0.49|0.579|0.0344|0.217|0.0644|0.879|122573
 1963|With The Beatles|All My Loving|0.416|0.563|0.0298|0.207|0.343|0.9|127853
 1963|With The Beatles|Don't Bother Me|0.371|0.724|0.0562|0.554|0.299|0.916|148253
 1963|With The Beatles|Little Child|0.526|0.858|0.0476|0.292|0.353|0.886|106400
@@ -28,7 +28,7 @@
 1963|With The Beatles|Not a Second Time|0.471|0.817|0.0372|0.213|0.498|0.961|126827
 1963|With The Beatles|Money (That's What I Want)|0.545|0.853|0.0394|0.425|0.266|0.923|169507
 1964|A Hard Day's Night|A Hard Day's Night|0.59|0.805|0.0371|0.137|0.0996|0.797|154200
-1964|A Hard Day's Night|I Should Have Known Better|0.682|0.444|0.0289|0.257|0.115|0.91|163080
+1964|A Hard Day's Night|I should Have Known Better|0.682|0.444|0.0289|0.257|0.115|0.91|163080
 1964|A Hard Day's Night|If I Fell|0.665|0.31|0.0278|0.68|0.0877|0.568|139467
 1964|A Hard Day's Night|I'm Happy Just to Dance with You|0.658|0.537|0.0307|0.138|0.0572|0.887|116373
 1964|A Hard Day's Night|And I Love Her|0.767|0.331|0.0337|0.64|0.0681|0.636|149693
@@ -46,10 +46,10 @@
 1964|Beatles for Sale|Rock and Roll Music|0.457|0.917|0.0441|0.566|0.333|0.965|151280
 1964|Beatles for Sale|I'll Follow the Sun|0.689|0.313|0.0366|0.789|0.144|0.625|108853
 1964|Beatles for Sale|Mr. Moonlight|0.631|0.424|0.0438|0.796|0.118|0.589|158627
-1964|Beatles for Sale|Kansas City / Hey-Hey-Hey-Hey|0.588|0.724|0.0335|0.614|0.877|0.924|158147
+1964|Beatles for Sale|Kansas City / Hey-Hey-Hey-Hey!|0.588|0.724|0.0335|0.614|0.877|0.924|158147
 1964|Beatles for Sale|Eight Days a Week|0.652|0.583|0.038|0.412|0.119|0.744|163600
 1964|Beatles for Sale|Words of Love|0.551|0.533|0.0297|0.323|0.173|0.85|124320
-1964|Beatles for Sale|Honey Don't|0.629|0.545|0.0348|0.473|0.0854|0.735|177427
+1964|Beatles for Sale|Honey Don't |0.629|0.545|0.0348|0.473|0.0854|0.735|177427
 1964|Beatles for Sale|Every Little Thing|0.74|0.49|0.038|0.488|0.103|0.678|123800
 1964|Beatles for Sale|I Don't Want to Spoil the Party |0.533|0.668|0.033|0.451|0.149|0.889|154467
 1964|Beatles for Sale|What You're Doing|0.695|0.53|0.0403|0.301|0.0583|0.825|150040
@@ -69,7 +69,7 @@
 1965|Help!|Yesterday|0.332|0.179|0.0326|0.879|0.0886|0.315|125667
 1965|Help!|Dizzy Miss Lizzy|0.373|0.934|0.0591|0.116|0.0962|0.918|176507
 1965|Rubber Soul|Drive My Car|0.754|0.571|0.0421|0.0173|0.3|0.82|148893
-1965|Rubber Soul|Norwegian Wood (This Bird Has Flown)|0.425|0.369|0.0379|0.183|0.112|0.65|124693
+1965|Rubber Soul|Norwegian Wood|0.425|0.369|0.0379|0.183|0.112|0.65|124693
 1965|Rubber Soul|You Won't See Me|0.488|0.539|0.0304|0.136|0.0538|0.473|199960
 1965|Rubber Soul|Nowhere Man|0.534|0.624|0.0462|0.00797|0.128|0.687|163693
 1965|Rubber Soul|Think for Yourself|0.529|0.567|0.0282|0.0124|0.0729|0.799|138520
@@ -106,8 +106,8 @@
 1967|Sgt. Pepper's Lonely Hearts Club Band|Within You Without You|0.352|0.479|0.0338|0.339|0.486|0.354|304667
 1967|Sgt. Pepper's Lonely Hearts Club Band|When I'm Sixty-Four|0.704|0.241|0.0476|0.625|0.0868|0.661|157667
 1967|Sgt. Pepper's Lonely Hearts Club Band|Lovely Rita|0.61|0.471|0.0261|0.0634|0.118|0.63|162093
-1967|Sgt. Pepper's Lonely Hearts Club Band|Good Morning Good Mornng|0.542|0.618|0.139|0.0858|0.772|0.93|161227
-1967|Sgt. Pepper's Lonely Hearts Club Band|Sgt. Pepper's Lonely Hearts Club Band|0.653|0.889|0.0453|0.0061|0.892|0.879|79067
+1967|Sgt. Pepper's Lonely Hearts Club Band|Good Morning Good Morning|0.542|0.618|0.139|0.0858|0.772|0.93|161227
+1967|Sgt. Pepper's Lonely Hearts Club Band|Sgt. Pepper's Lonely Hearts Club Band (Reprise)|0.653|0.889|0.0453|0.0061|0.892|0.879|79067
 1967|Sgt. Pepper's Lonely Hearts Club Band|A Day in the Life|0.364|0.457|0.0675|0.29|0.922|0.175|337413
 1967|Magical Mystery Tour|Magical Mystery Tour|0.297|).613|0.0931|0.0385|0.0734|0.338|170107
 1967|Magical Mystery Tour|The Fool on the Hill|0.365|0.26|0.0314|0.913|0.105|0.49|179107
@@ -116,10 +116,10 @@
 1967|Magical Mystery Tour|Your Mother Should Know|0.698|0.293|0.0332|0.784|0.0936|0.724|148413
 1967|Magical Mystery Tour|I Am the Walrus|0.401|0.556|0.0513|0.0828|0.589|0.654|275867
 1967|Magical Mystery Tour|Hello, Goodbye|0.479|0.733|0.0256|0.306|0.414|0.806|208840
-1967|Magical Mystery Tour|Strawberry Field Forever|0.39|0.502|0.178|0.336|0.0713|0.289|247320
+1967|Magical Mystery Tour|Strawberry Fields Forever|0.39|0.502|0.178|0.336|0.0713|0.289|247320
 1967|Magical Mystery Tour|Penny Lane|0.651|0.488|0.0316|0.212|0.136|0.49|180893
 1967|Magical Mystery Tour|Baby, You're a Rich Man|0.619|0.625|0.036|0.0119|0.152|0.467|181307
-1967|Magical Mystery Tour|All You Need Is Love|0.4|0.48|0.0295|0.346|0.155|0.653|230387
+1967|Magical Mystery Tour|All You Need is Love|0.4|0.48|0.0295|0.346|0.155|0.653|230387
 1968|The Beatles (white album)|Back in the U.S.S.R.|0.48|0.969|0.0854|0.069|0.0608|0.494|163453
 1968|The Beatles (white album)|Dear Prudence |0.388|0.529|0.0436|0.16|0.108|0.332|235773
 1968|The Beatles (white album)|Glass Onion|0.523|0.51|0.0514|0.0123|0.108|0.789|137840
@@ -192,3 +192,4 @@
 1970|Let It Be|The Long and Winding Road|0.299|0.329|0.0279|0.756|0.0559|0.392|218187
 1970|Let It Be|For You Blue|0.88|0.556|0.0855|0.24|0.24|0.955|152213
 1970|Let It Be|Get Back|0.761|0.592|0.0586|0.492|0.61|0.332|189387
+|||||||||

@@ -1,1 +1,3 @@
-Como esse arquivo continha as músicas principais, ele serviu de base para consolidação das bases de dados. Além disso, os nomes de música foram padronizados de acordo com as listas de faixas da discografia da banda (https://en.wikipedia.org/wiki/The_Beatles#Discography), excluindo álbuns de compilação.
+Devido ao uso de vírgula como delimitador, o arquivo não podia ser lido pelo Excel, assim, ele foi convertido para delimitador pipeline através do script corrige.py.
+
+Como esse arquivo continha as músicas principais, ele serviu de base para consolidação das bases de dados, então colunas desnecessárias foram apagadas e os nomes de música foram padronizados de acordo com as listas de faixas da discografia da banda (https://en.wikipedia.org/wiki/The_Beatles#Discography), excluindo álbuns de compilação, criando BeatlesDB.xlsx, padronizando apóstrofo como '. Foi então criado o arquivo .csv correspondente.
