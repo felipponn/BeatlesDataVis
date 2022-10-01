@@ -13,3 +13,4 @@ df2 = df2.drop(columns=["year"])
 beatles = df1.merge(df2, left_on=("song", "album"), right_on=("song", "album")).set_index(["album", "song"]).sort_index()
 
 beatles.to_csv('beatlesDF.csv', sep='|')
+beatles.to_pickle('beatlesDF.pkl')
