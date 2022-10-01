@@ -28,11 +28,11 @@ year|album|song|danceability|energy|speechiness|acousticness|liveness|valence|du
 1963|With The Beatles|Not a Second Time|0.471|0.817|0.0372|0.213|0.498|0.961|126827
 1963|With The Beatles|Money (That's What I Want)|0.545|0.853|0.0394|0.425|0.266|0.923|169507
 1964|A Hard Day's Night|A Hard Day's Night|0.59|0.805|0.0371|0.137|0.0996|0.797|154200
-1964|A Hard Day's Night|I should Have Known Better|0.682|0.444|0.0289|0.257|0.115|0.91|163080
+1964|A Hard Day's Night|I Should Have Known Better|0.682|0.444|0.0289|0.257|0.115|0.91|163080
 1964|A Hard Day's Night|If I Fell|0.665|0.31|0.0278|0.68|0.0877|0.568|139467
 1964|A Hard Day's Night|I'm Happy Just to Dance with You|0.658|0.537|0.0307|0.138|0.0572|0.887|116373
 1964|A Hard Day's Night|And I Love Her|0.767|0.331|0.0337|0.64|0.0681|0.636|149693
-1964|A Hard Day's Night|Tell Me Why |0.267|0.688|0.0388|0.586|0.307|0.797|128693
+1964|A Hard Day's Night|Tell Me Why|0.267|0.688|0.0388|0.586|0.307|0.797|128693
 1964|A Hard Day's Night|Can't Buy Me Love|0.483|0.677|0.0593|0.283|0.321|0.842|131867
 1964|A Hard Day's Night|Any Time at All|0.612|0.719|0.0398|0.366|0.437|0.744|131280
 1964|A Hard Day's Night|I'll Cry Instead|0.643|0.73|0.0347|0.0917|0.253|0.96|105987
@@ -49,9 +49,9 @@ year|album|song|danceability|energy|speechiness|acousticness|liveness|valence|du
 1964|Beatles for Sale|Kansas City / Hey-Hey-Hey-Hey!|0.588|0.724|0.0335|0.614|0.877|0.924|158147
 1964|Beatles for Sale|Eight Days a Week|0.652|0.583|0.038|0.412|0.119|0.744|163600
 1964|Beatles for Sale|Words of Love|0.551|0.533|0.0297|0.323|0.173|0.85|124320
-1964|Beatles for Sale|Honey Don't |0.629|0.545|0.0348|0.473|0.0854|0.735|177427
+1964|Beatles for Sale|Honey Don't|0.629|0.545|0.0348|0.473|0.0854|0.735|177427
 1964|Beatles for Sale|Every Little Thing|0.74|0.49|0.038|0.488|0.103|0.678|123800
-1964|Beatles for Sale|I Don't Want to Spoil the Party |0.533|0.668|0.033|0.451|0.149|0.889|154467
+1964|Beatles for Sale|I Don't Want to Spoil the Party|0.533|0.668|0.033|0.451|0.149|0.889|154467
 1964|Beatles for Sale|What You're Doing|0.695|0.53|0.0403|0.301|0.0583|0.825|150040
 1964|Beatles for Sale|Everybody's Trying to Be My Baby|0.543|0.806|0.0385|0.466|0.134|0.943|146000
 1965|Help!|Help!|0.534|0.725|0.0332|0.188|0.0994|0.763|139560
@@ -69,7 +69,7 @@ year|album|song|danceability|energy|speechiness|acousticness|liveness|valence|du
 1965|Help!|Yesterday|0.332|0.179|0.0326|0.879|0.0886|0.315|125667
 1965|Help!|Dizzy Miss Lizzy|0.373|0.934|0.0591|0.116|0.0962|0.918|176507
 1965|Rubber Soul|Drive My Car|0.754|0.571|0.0421|0.0173|0.3|0.82|148893
-1965|Rubber Soul|Norwegian Wood|0.425|0.369|0.0379|0.183|0.112|0.65|124693
+1965|Rubber Soul|Norwegian Wood (This Bird Has Flown)|0.425|0.369|0.0379|0.183|0.112|0.65|124693
 1965|Rubber Soul|You Won't See Me|0.488|0.539|0.0304|0.136|0.0538|0.473|199960
 1965|Rubber Soul|Nowhere Man|0.534|0.624|0.0462|0.00797|0.128|0.687|163693
 1965|Rubber Soul|Think for Yourself|0.529|0.567|0.0282|0.0124|0.0729|0.799|138520
@@ -77,7 +77,7 @@ year|album|song|danceability|energy|speechiness|acousticness|liveness|valence|du
 1965|Rubber Soul|Michelle|0.578|0.29|0.0341|0.652|0.105|0.666|162373
 1965|Rubber Soul|What Goes On|0.67|0.776|0.0749|0.0168|0.0732|0.765|168573
 1965|Rubber Soul|Girl|0.699|0.294|0.0294|0.587|0.117|0.893|151720
-1965|Rubber Soul|I'm Looking Through You |0.667|0.498|0.0364|0.00772|0.0481|0.774|146387
+1965|Rubber Soul|I'm Looking Through You|0.667|0.498|0.0364|0.00772|0.0481|0.774|146387
 1965|Rubber Soul|In My Life|0.688|0.435|0.0323|0.449|0.113|0.435|146333
 1965|Rubber Soul|Wait|0.552|0.487|0.04|0.0175|0.105|0.657|134720
 1965|Rubber Soul|If I Needed Someone|0.492|0.755|0.0331|0.00748|0.102|0.796|142267
@@ -88,7 +88,7 @@ year|album|song|danceability|energy|speechiness|acousticness|liveness|valence|du
 1966|Revolver|Love You To|0.391|0.593|0.0413|0.7|0.0829|0.707|179827
 1966|Revolver|Here, There and Everywhere|0.29|0.247|0.0383|0.921|0.0917|0.36|144880
 1966|Revolver|Yellow Submarine|0.604|0.549|0.0389|0.531|0.438|0.696|158880
-1966|Revolver|She Said She Said |0.329|0.678|0.0344|0.103|0.843|0.672|156040
+1966|Revolver|She Said She Said|0.329|0.678|0.0344|0.103|0.843|0.672|156040
 1966|Revolver|Good Day Sunshine|0.77|0.496|0.0468|0.719|0.123|0.571|129293
 1966|Revolver|And Your Bird Can Sing|0.555|0.65|0.0282|0.0067|0.236|0.966|120493
 1966|Revolver|For No One|0.483|0.351|0.0278|0.783|0.115|0.713|119813
@@ -111,7 +111,7 @@ year|album|song|danceability|energy|speechiness|acousticness|liveness|valence|du
 1967|Sgt. Pepper's Lonely Hearts Club Band|A Day in the Life|0.364|0.457|0.0675|0.29|0.922|0.175|337413
 1967|Magical Mystery Tour|Magical Mystery Tour|0.297|).613|0.0931|0.0385|0.0734|0.338|170107
 1967|Magical Mystery Tour|The Fool on the Hill|0.365|0.26|0.0314|0.913|0.105|0.49|179107
-1967|Magical Mystery Tour|Flying |0.551|0.395|0.0501|0.368|0.0932|0.261|135520
+1967|Magical Mystery Tour|Flying|0.551|0.395|0.0501|0.368|0.0932|0.261|135520
 1967|Magical Mystery Tour|Blue Jay Way|0.294|0.407|0.0308|0.0258|0.0852|0.0378|235067
 1967|Magical Mystery Tour|Your Mother Should Know|0.698|0.293|0.0332|0.784|0.0936|0.724|148413
 1967|Magical Mystery Tour|I Am the Walrus|0.401|0.556|0.0513|0.0828|0.589|0.654|275867
@@ -119,9 +119,9 @@ year|album|song|danceability|energy|speechiness|acousticness|liveness|valence|du
 1967|Magical Mystery Tour|Strawberry Fields Forever|0.39|0.502|0.178|0.336|0.0713|0.289|247320
 1967|Magical Mystery Tour|Penny Lane|0.651|0.488|0.0316|0.212|0.136|0.49|180893
 1967|Magical Mystery Tour|Baby, You're a Rich Man|0.619|0.625|0.036|0.0119|0.152|0.467|181307
-1967|Magical Mystery Tour|All You Need is Love|0.4|0.48|0.0295|0.346|0.155|0.653|230387
+1967|Magical Mystery Tour|All You Need Is Love|0.4|0.48|0.0295|0.346|0.155|0.653|230387
 1968|The Beatles (white album)|Back in the U.S.S.R.|0.48|0.969|0.0854|0.069|0.0608|0.494|163453
-1968|The Beatles (white album)|Dear Prudence |0.388|0.529|0.0436|0.16|0.108|0.332|235773
+1968|The Beatles (white album)|Dear Prudence|0.388|0.529|0.0436|0.16|0.108|0.332|235773
 1968|The Beatles (white album)|Glass Onion|0.523|0.51|0.0514|0.0123|0.108|0.789|137840
 1968|The Beatles (white album)|Ob-La-Di, Ob-La-Da|0.818|0.728|0.0314|0.232|0.251|0.975|188960
 1968|The Beatles (white album)|Wild Honey Pie|0.792|0.763|0.0506|0.425|0.789|0.152|52973
@@ -141,7 +141,7 @@ year|album|song|danceability|energy|speechiness|acousticness|liveness|valence|du
 1968|The Beatles (white album)|Yer Blues|0.327|0.525|0.0475|0.000875|0.133|0.435|240453
 1968|The Beatles (white album)|Mother Nature's Son|0.608|0.178|0.0264|0.634|0.166|0.401|168027
 1968|The Beatles (white album)|Everybody's Got Something to Hide Except Me and My Monkey|0.523|0.731|0.0559|0.0207|0.081|0.81|144773
-1968|The Beatles (white album)|Sexy Sadie |0.577|0.624|0.0285|0.33|0.117|0.671|195267
+1968|The Beatles (white album)|Sexy Sadie|0.577|0.624|0.0285|0.33|0.117|0.671|195267
 1968|The Beatles (white album)|Helter Skelter|0.166|0.831|0.0894|0.000606|0.811|0.281|269787
 1968|The Beatles (white album)|Long, Long, Long|0.349|0.129|0.0294|0.539|0.192|0.163|186307
 1968|The Beatles (white album)|Revolution 1|0.386|0.626|0.0377|0.0785|0.621|0.695|255707
@@ -154,10 +154,10 @@ year|album|song|danceability|energy|speechiness|acousticness|liveness|valence|du
 1969|Yellow Submarine|Only a Northern Song|0.175|0.731|0.0705|0.000341|0.0846|0.801|204493
 1969|Yellow Submarine|All Together Now|0.587|0.431|0.0686|0.0722|0.561|0.778|130893
 1969|Yellow Submarine|Hey Bulldog|0.587|0.617|0.028|0.0197|0.199|0.947|191307
-1969|Yellow Submarine|It's All Too Much |0.39|0.781|0.0364|0.000043|0.1|0.199|385013
+1969|Yellow Submarine|It's All Too Much|0.39|0.781|0.0364|0.000043|0.1|0.199|385013
 1969|Yellow Submarine|All You Need Is Love|0.4|0.463|0.0288|0.345|0.286|0.627|231213
 1969|Yellow Submarine|Pepperland|0.354|0.281|0.032|0.661|0.243|0.367|140733
-1969|Yellow Submarine|Sea of Time |0.237|0.096|0.0387|0.971|0.203|0.0629|180213
+1969|Yellow Submarine|Sea of Time|0.237|0.096|0.0387|0.971|0.203|0.0629|180213
 1969|Yellow Submarine|Sea of Holes|0.249|0.0994|0.04|0.959|0.454|0.0357|136693
 1969|Yellow Submarine|Sea of Monsters|0.253|0.166|0.0346|0.945|0.135|0.0489|216693
 1969|Yellow Submarine|March of the Meanies|0.538|0.378|0.0387|0.934|0.456|0.16|139360
@@ -177,19 +177,18 @@ year|album|song|danceability|energy|speechiness|acousticness|liveness|valence|du
 1969|Abbey Road|Polythene Pam|0.474|0.939|0.199|0.00472|0.19|0.499|72640
 1969|Abbey Road|She Came In Through the Bathroom Window|0.53|0.72|0.0338|0.00376|0.314|0.69|118627
 1969|Abbey Road|Golden Slumbers|0.419|0.152|0.0277|0.326|0.113|0.239|91760
-1969|Abbey Road|Carry That Weight |0.543|0.458|0.0274|0.226|0.298|0.704|96467
-1969|Abbey Road|The End |0.647|0.487|0.0689|0.00101|0.138|0.222|141613
+1969|Abbey Road|Carry That Weight|0.543|0.458|0.0274|0.226|0.298|0.704|96467
+1969|Abbey Road|The End|0.647|0.487|0.0689|0.00101|0.138|0.222|141613
 1969|Abbey Road|Her Majesty|0.703|0.215|0.0892|0.728|0.13|0.522|25987
 1970|Let It Be|Two of Us|0.726|0.702|0.032|0.0974|0.239|0.931|216813
 1970|Let It Be|Dig a Pony|0.538|0.478|0.0388|0.472|0.17|0.527|235000
 1970|Let It Be|Across the Universe|0.257|0.412|0.0287|0.361|0.0702|0.858|228133
 1970|Let It Be|I Me Mine|0.291|0.638|0.0554|0.179|0.101|0.525|145587
-1970|Let It Be|Dig It |0.54|0.489|0.117|0.659|0.457|0.67|50467
-1970|Let It Be|Let It Be |0.443|0.403|0.0322|0.631|0.111|0.41|243027
+1970|Let It Be|Dig It|0.54|0.489|0.117|0.659|0.457|0.67|50467
+1970|Let It Be|Let It Be|0.443|0.403|0.0322|0.631|0.111|0.41|243027
 1970|Let It Be|Maggie Mae|0.516|0.515|0.215|0.379|0.103|0.524|40040
 1970|Let It Be|I've Got a Feeling|0.44|0.609|0.0358|0.0715|0.582|0.364|217560
 1970|Let It Be|One After 909|0.554|0.828|0.0739|0.0307|0.907|0.888|173960
 1970|Let It Be|The Long and Winding Road|0.299|0.329|0.0279|0.756|0.0559|0.392|218187
 1970|Let It Be|For You Blue|0.88|0.556|0.0855|0.24|0.24|0.955|152213
 1970|Let It Be|Get Back|0.761|0.592|0.0586|0.492|0.61|0.332|189387
-|||||||||
