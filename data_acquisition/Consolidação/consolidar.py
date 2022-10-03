@@ -53,21 +53,23 @@ for album in albums:
             msc_nome = re.sub(" - Remastered 2009", "", msc_nome)
             msc_nome = re.sub(" - Medley / Remastered 2009", "", msc_nome)
             msc_nome = re.sub("- Reprise / Remastered 2009", "(Reprise)", msc_nome)
+            msc_nome = re.sub("Mister", "Mr.", msc_nome)
+            msc_nome = re.sub("Mr ", "Mr. ", msc_nome)
+            msc_nome = re.sub("Sixty ", "Sixty-", msc_nome)
+            if msc_nome == "Kansas City / Hey-Hey-Hey-Hey":
+                msc_nome = "Kansas City / Hey-Hey-Hey-Hey!"
             popularity = spotify.track(msc["id"])["popularity"]
             info.append([album_nome, msc_nome, popularity])
 
 popDF = pd.DataFrame(info)
-popDF.to_csv("popDF.csv", sep = '|')
-
-
-popDF = pd.read_csv("popDF.csv", sep = "|")
 popDF = popDF.drop(columns=["Unnamed: 0"])
 popDF = popDF.rename(columns={"0":"album", "1":"song", "2":"popularity"})
 
 beatles['song_lower'] = beatles["song"].str.lower()
 popDF['song_lower'] = popDF["song"].str.lower()
 
-beatles = beatles.merge(popDF, left_on=("song_lower", "album"), right_on=("song_lower", "album"), how="left")
+beatles = beatles.merge(popDF, left_on=("song_lower", "album"), right_on=("song_lower", "album"))
 beatles = beatles.rename(columns={"song_x":"song"})
 beatles = beatles.drop(columns=["song_y", "song_lower"])
-beatles.to_csv('beatlesDF.csv', sep='|')
+beatles = beatles.set_index(['album', 'song'])
+beatles.to_pickle('beatlesDF.pkl')
