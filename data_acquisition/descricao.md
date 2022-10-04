@@ -1,0 +1,3 @@
+- clean-lyrics.csv: nomes bem formatados, mas com letras a mais e com erros de formatação csv
+- TheBeatlesCleaned.csv: quantidade certa de músicas, mas com nomes mal formatados
+- BeatlesPremios.csv: dados sobre principais premiações, obtido a partir de https://en.wikipedia.org/wiki/List_of_awards_and_nominations_received_by_the_Beatles
