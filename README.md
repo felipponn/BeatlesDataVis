@@ -1,4 +1,4 @@
-# BeatlesDataVis
+# BeatlesDataViz
 
 Este trabalho é a realização do seguinte trabalho seguindo a discografia da banda Beatles.
 
