@@ -1,61 +1,90 @@
 import pandas as pd
 
 def mais_x_por_album(dataframe, coluna):
+    """
+    Ordena as musicas do dataframe agrupado por album
+
+    Args:
+        dataframe : Dataframe com musicas da banda
+        coluna : Coluna do Dataframe pela qual o dataframe será ordenado
+    Returns:
+        list: Lista com um dataframe contendo musicas por album
+    """
     try:
         lista_albums = []
-        albums= pd.unique(dataframe["album"]) # lista com o nome dos albums 
+        albums= dataframe.index.levels[0] # lista com o nome dos albums
         for album in albums:
-            musicas = dataframe.loc[(dataframe["album"] == album)] #pega as linhas com músicas do album
-            musicas_ordenadas = musicas.sort_values(by=coluna, ascending=False)["song"] # ordena pela coluna
-            dt = pd.DataFrame(data=musicas_ordenadas) # transforma em DataFrame
-            dt.reset_index(inplace=True) # Tira o index do dataframe antigo
-            del dt['index']
-            lista_albums.append(dt)
+            musicas = dataframe.loc[album] # pega as linhas com músicas do album
+            musicas_ordenadas = musicas.sort_values(by=coluna, ascending=False)[coluna] # ordena pela coluna
+            lista_albums.append(musicas_ordenadas)
         return lista_albums
 
     except TypeError:
-        print("te")
+        print("Type Error")
     except KeyError:
-        print("ke")
+        print("Key Error")
     except Exception as error:
         return error
 
 
 def mais_x_da_banda(dataframe, coluna):
-    try:
-        dataframe.sort_values(by=coluna, ascending=False, inplace=True)
-        return dataframe[["song", coluna]]
+    """
+    Ordena as musicas do dataframe sem agrupar
 
+    Args:
+        dataframe : Dataframe com musicas da banda
+        coluna : Coluna do Dataframe pela qual o dataframe será ordenado
+    Returns:
+        dataframe: Dataframe com todas as musicas e a coluna pela qual foi ordenada
+    """
+    try:
+        dataframe = dataframe.droplevel(0)
+        dataframe.sort_values(by=coluna, ascending=False, inplace=True)
+        return dataframe[coluna]
     except AttributeError:
-        print("ae")
+        print("Attribute Error")
     except KeyError:
-        print("ke")
+        print("Key Error")
     except Exception as error:
         return error
 
 
 def mais_premiados_album(dataframe, coluna):
+    """
+    Ordena os albuns pelo numero de premiações
+
+    Args:
+        dataframe : Dataframe albums da banda e as respectivas premiações
+        coluna : Coluna do Dataframe pela qual o dataframe será ordenado
+    Returns:
+        dataframe: Dataframe com albums e número de premiações ordenado  
+    """
     try:
-        dataframe= dataframe.loc[:, ('album', coluna)]
-        dataframe.drop_duplicates(inplace=True)
-        dataframe.sort_values(by=coluna, ascending=False, inplace=True)
-        dataframe.reset_index(inplace=True)
+        dataframe = dataframe.sort_values(by=[coluna, "num_nominations"], ascending=False)
+        dataframe = dataframe[["album",coluna, "num_nominations"]]
+        dataframe.reset_index(inplace=True)       # Tira o index do dataframe antigo
         del dataframe['index']
         return dataframe
-
     except KeyError:
-        print("Ke")
+        print("Key Error")
     except AttributeError:
-        print("Ae")
+        print("Attribute Error")
     except Exception as error:
         return error
 
-def mais_ouvidas_album(dataframe, coluna):
-    lista_albums = []
-    albums= pd.unique(dataframe["album"])
-    for album in albums:
-        serie = dataframe.loc[(dataframe["album"] == album)]
-        serie["musica"].sort_values(by=coluna, ascending=False, inplace=True)
-        lista_albums.append(serie)
+def correlacao(dataframe, coluna1, coluna2):
+    """
+    Correlação entre duas colunas de um dataframe
 
-    return lista_albums
+    Args:
+        dataframe : Dataframe que contem as colunas 1 e 2
+        coluna1 (string): coluna do dataframe
+        coluna2 (string): coluna do dataframe
+
+    Returns:
+        float: correlação
+    """
+    try:
+        return dataframe[coluna1].corr(dataframe[coluna2])
+    except Exception as error:
+        return error
