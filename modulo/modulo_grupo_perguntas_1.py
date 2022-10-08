@@ -60,6 +60,8 @@ def mais_premiados_album(dataframe, coluna):
         dataframe: Dataframe com albums e número de premiações ordenado  
     """
     try:
+        dataframe["num_awards"] = [len(x.split(",")) if x != '[]' else 0 for x in dataframe["awards"]] # conta quantas premios tem um album
+        dataframe["num_nominations"]= [len(x.split(",")) if x != '[]' else 0 for x in dataframe["nominations"]] # conta quantas nomeações tem um album
         dataframe = dataframe.sort_values(by=[coluna, "num_nominations"], ascending=False)
         dataframe = dataframe[["album",coluna, "num_nominations"]]
         dataframe.reset_index(inplace=True)       # Tira o index do dataframe antigo
