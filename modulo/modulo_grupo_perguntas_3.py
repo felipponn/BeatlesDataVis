@@ -1,6 +1,4 @@
-from decimal import DivisionByZero
 from statistics import mean
-from traceback import print_tb
 import pandas as pd
 import numpy as np
 
@@ -121,7 +119,7 @@ def porcentagem_participacao_album(dataframe):
                 for membro in ["McCartney", "Lennon", "Harrison", "Starr"]:
                     resultado.append([album, membro, dict_albuns[album][membro]])
 
-            return pd.DataFrame.from_records(resultado)
+            return pd.DataFrame.from_records(resultado, columns=["album", "membro", "participacao"])
         except Exception as error:
             return error
     else:
