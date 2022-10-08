@@ -1,5 +1,7 @@
 # BeatlesDataViz
 
+*Aviso:* Caso queira rodar o arquivo main.py, apague antes os arquivos da pasta img, para que que os arquivos de imagem sejam novamente criados.
+
 Este trabalho tem como objetivo analisar e responder algumas perguntas sobre a discografia da banda Beatles.
 
 ## Grupo de Perguntas 2:
