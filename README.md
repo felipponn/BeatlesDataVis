@@ -88,54 +88,54 @@ Wordcloud:
 - Como a participação dos membros numa música influenciou em sua popularidade?
     - Analisando os créditos de composição:
 
-|Compositor|                            Popularidade Média|
-|---|---|
-|Phil Medley                          |75.000000|
-|Bert Berns                           |75.000000|
-|Donovan                              |69.000000|
-|Meredith Willson                     |62.000000|
-|Arthur Alexander                     |58.000000|
-|Paul McCartney                       |57.354167|
-|Freddie Gorman                       |56.000000|
-|Brian Holland                        |56.000000|
-|William Garrett                      |56.000000|
-|Georgia Dobbins                      |56.000000|
-|Robert Bateman                       |56.000000|
-|Hal David                            |56.000000|
-|Burt Bacharach                       |56.000000|
-|John Lennon                          |55.454545|
-|Smokey Robinson                      |55.000000|
-|Chuck Berry                          |54.500000|
-|George Harrison                      |52.875000|
-|Luther Dixon                         |52.000000|
-|Ringo Starr                          |51.333333|
-|Janie Bradford                       |48.000000|
-|Buddy Holly                          |48.000000|
-|Wes Farrell                          |48.000000|
-|Berry Gordy                          |48.000000|
-|Voni Morrison                        |48.000000|
-|Johnny Russell                       |48.000000|
-|Gerry Goffin                         |47.000000|
-|Ric Marlow                           |47.000000|
-|Bobby Scott                          |47.000000|
-|Drapkin (a.k.a. Ricky Dee)           |47.000000|
-|Carole King                          |47.000000|
-|Larry Williams                       |46.000000|
-|Roy Lee Johnson                      |45.000000|
-|Mike Stoller                         |44.000000|
-|Jerry Leiber                         |44.000000|
-|Yoko Ono                             |44.000000|
-|Carl Perkins                         |43.000000|
-|George Martin                        |36.000000|
+    |Compositor|                            Popularidade Média|
+    |---|---|
+    |Phil Medley                          |75.000000|
+    |Bert Berns                           |75.000000|
+    |Donovan                              |69.000000|
+    |Meredith Willson                     |62.000000|
+    |Arthur Alexander                     |58.000000|
+    |Paul McCartney                       |57.354167|
+    |Freddie Gorman                       |56.000000|
+    |Brian Holland                        |56.000000|
+    |William Garrett                      |56.000000|
+    |Georgia Dobbins                      |56.000000|
+    |Robert Bateman                       |56.000000|
+    |Hal David                            |56.000000|
+    |Burt Bacharach                       |56.000000|
+    |John Lennon                          |55.454545|
+    |Smokey Robinson                      |55.000000|
+    |Chuck Berry                          |54.500000|
+    |George Harrison                      |52.875000|
+    |Luther Dixon                         |52.000000|
+    |Ringo Starr                          |51.333333|
+    |Janie Bradford                       |48.000000|
+    |Buddy Holly                          |48.000000|
+    |Wes Farrell                          |48.000000|
+    |Berry Gordy                          |48.000000|
+    |Voni Morrison                        |48.000000|
+    |Johnny Russell                       |48.000000|
+    |Gerry Goffin                         |47.000000|
+    |Ric Marlow                           |47.000000|
+    |Bobby Scott                          |47.000000|
+    |Drapkin (a.k.a. Ricky Dee)           |47.000000|
+    |Carole King                          |47.000000|
+    |Larry Williams                       |46.000000|
+    |Roy Lee Johnson                      |45.000000|
+    |Mike Stoller                         |44.000000|
+    |Jerry Leiber                         |44.000000|
+    |Yoko Ono                             |44.000000|
+    |Carl Perkins                         |43.000000|
+    |George Martin                        |36.000000|
     - Analisando os créditos de vocais:
-|Vocalista|          Popularidade Média|
-|---|---|
-|McCartney               |57.021978|
-|Lennon                  |55.594059|
-|Harrison                |54.264706|
-|Starr                   |53.071429|
-|Sound Collage           |44.000000|
-|Instrumental            |38.750000|
+    |Vocalista|          Popularidade Média|
+    |---|---|
+    |McCartney               |57.021978|
+    |Lennon                  |55.594059|
+    |Harrison                |54.264706|
+    |Starr                   |53.071429|
+    |Sound Collage           |44.000000|
+    |Instrumental            |38.750000|
 
 -  Qual a porcentagem de participação em créditos (vocais ou de composição) de cada membro em cada álbum?
 
