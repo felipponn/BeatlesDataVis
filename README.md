@@ -128,6 +128,7 @@ Wordcloud:
     |Carl Perkins                         |43.000000|
     |George Martin                        |36.000000|
     - Analisando os créditos de vocais:
+    
     |Vocalista|          Popularidade Média|
     |---|---|
     |McCartney               |57.021978|
