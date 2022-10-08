@@ -1,1 +1,1 @@
-__all__ = ["dataset"]
+__all__ = ["dataset", "modulo_grupo_perguntas_1", "modulo_grupo_perguntas_2", "modulo_grupo_perguntas_3", "seaborn_vis", "wordcloud_vis"]

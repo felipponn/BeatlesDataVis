@@ -1,5 +1,4 @@
-from modulo import *
-from modulo import modulo_grupo_perguntas_1 as mp
+from pacote_modulos import modulo_grupo_perguntas_1 as mp
 import seaborn as sns
 import pandas as pd
 import matplotlib.pylab as plt
@@ -286,8 +285,8 @@ def menos_populares_por_album(data):
         return error
 
 
-def plot_participacao_vocal_album(dataframe):
-    """Salva o lineplot da participação vocal pelos albuns da banda
+def plot_participacao_album(dataframe):
+    """Salva o lineplot da participação pelos albuns da banda
 
     :param data: Dataframe com as músicas
     :type data: pandas dataframe
@@ -299,14 +298,14 @@ def plot_participacao_vocal_album(dataframe):
         x="album", 
         hue="membro", 
         hue_order=["Lennon", "McCartney", "Harrison", "Starr"]) # ordem das linhas
-        plot.set(title="Média de Participação vocal por Album")
+        plot.set(title="Média de Participação por Álbum")
         plot.set_xlabel( "Album" , size = 12 )
         plot.set_ylabel( "Média Vocal", size = 12)
         plot.set_ylim(0, )
         plt.xticks(rotation=90) # gira o nome dos albuns em 90 graus
         plt.tight_layout() #deixa todos os textos na janela
         fig = plot.get_figure()
-        fig.savefig("img/participação_vocal_album.png")
+        fig.savefig("img/participação_album.png")
         plt.close()
     except Exception as error:
         return error

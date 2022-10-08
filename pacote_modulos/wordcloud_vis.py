@@ -1,6 +1,5 @@
 import re
-from modulo import *
-import modulo.modulo_grupo_perguntas_2 as mgp
+import pacote_modulos.modulo_grupo_perguntas_2 as mgp
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 

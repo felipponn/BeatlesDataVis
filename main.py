@@ -1,7 +1,4 @@
-from modulo import *
 from pacote_modulos import *
-from seaborn_plots import seaborn_vis
-from wordcloud_plots import wordcloud_vis
 
 beatlesDF = dataset.beatlesDF
 premiosDF = dataset.premiosDF
@@ -102,10 +99,10 @@ modulo_grupo_perguntas_3.media_popularidade_vocal(beatlesDF), "\n\n\n")
 
 seaborn_vis.plotar_media_popularidade_vocal(modulo_grupo_perguntas_3.media_popularidade_vocal(beatlesDF))
 
-print("Participação vocal de cada membro por Álbum", "\n",
+print("Participação de cada membro por Álbum", "\n",
 modulo_grupo_perguntas_3.porcentagem_participacao_album(beatlesDF), "\n\n\n")
 
-seaborn_vis.plot_participacao_vocal_album(modulo_grupo_perguntas_3.porcentagem_participacao_album(beatlesDF))
+seaborn_vis.plot_participacao_album(modulo_grupo_perguntas_3.porcentagem_participacao_album(beatlesDF))
 
 print("Palavras médias por segundo por Álbum", "\n",
 modulo_grupo_perguntas_3.verborragia(beatlesDF))
