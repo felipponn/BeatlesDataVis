@@ -4,6 +4,538 @@
 
 Este trabalho tem como objetivo analisar e responder algumas perguntas sobre a discografia da banda Beatles.
 
+Dentro da pasta data_acquisition tem a descrição do processo limpeza de dados.
+
+## Grupo de Perguntas 1:
+
+- Quais são as músicas mais ouvidas e músicas menos ouvidas por Álbum?
+
+Músicas mais populares do A Hard Day's Night
+|musica|popularidade|
+|---|---|
+And I Love Her|        67
+A Hard Day's Night|    66
+Can't Buy Me Love|     65
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20Populares%20do%20A%20Hard%20Day's%20Night.png)
+
+Músicas menos populares do A Hard Day's Night
+|musica|popularidade|
+|---|---|
+|When I Get Home|      44|
+|I'll Cry Instead|     46|
+|You Can't Do That|    48|
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Menos%20Populares%20do%20A%20Hard%20Day's%20Night.png)
+
+Músicas mais populares do Abbey Road
+|musica|popularidade|
+|---|---|
+Here Comes the Sun|    82
+Come Together|         77
+Something|             71
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20Populares%20do%20Abbey%20Road.png)
+
+ Músicas menos populares do Abbey Road
+|musica|popularidade|
+|---|---|
+Her Majesty      |24
+Sun King         |55
+Polythene Pam    |55
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Menos%20Populares%20do%20Abbey%20Road.png)
+
+Músicas mais populares do Beatles for Sale
+|musica|popularidade|
+|---|---|
+Eight Days a Week      |64
+I'll Follow the Sun    |60
+No Reply               |56
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20Populares%20do%20Beatles%20for%20Sale.png)
+
+ Músicas menos populares do Beatles for Sale
+|musica|popularidade|
+|---|---|
+Honey Don't                         |43
+Everybody's Trying to Be My Baby    |43
+What You're Doing                   |44
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Menos%20Populares%20do%20Beatles%20for%20Sale.png)
+
+Músicas mais populares do Help!
+|musica|popularidade|
+|---|---|
+Yesterday         |76
+Help!             |70
+Ticket to Ride    |65
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20Populares%20do%20Help!.png)
+
+ Músicas menos populares do Help!
+|musica|popularidade|
+|---|---|
+You Like Me Too Much    |46
+Tell Me What You See    |46
+Dizzy Miss Lizzy        |46
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Menos%20Populares%20do%20Help!.png)
+
+Músicas mais populares do Let It Be
+|musica|popularidade|
+|---|---|
+Let It Be              |78
+Across the Universe    |66
+Get Back               |66
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20Populares%20do%20Let%20It%20Be.png)
+
+ Músicas menos populares do Let It Be
+|musica|popularidade|
+|---|---|
+Dig It           |47
+One After 909    |50
+For You Blue     |50
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Menos%20Populares%20do%20Let%20It%20Be.png)
+
+Músicas mais populares do Magical Mystery Tour
+|musica|popularidade|
+|---|---|
+Strawberry Fields Forever    |70
+All You Need Is Love         |65
+Hello, Goodbye               |64
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20Populares%20do%20Magical%20Mystery%20Tour.png)
+
+ Músicas menos populares do Magical Mystery Tour
+|musica|popularidade|
+|---|---|
+Flying                  |49
+Blue Jay Way            |50
+Magical Mystery Tour    |52
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Menos%20Populares%20do%20Magical%20Mystery%20Tour.png)
+
+Músicas mais populares do Please Please Me
+|musica|popularidade|
+|---|---|
+Twist and Shout             |75
+I Saw Her Standing There    |68
+Love Me Do                  |68
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20Populares%20do%20Please%20Please%20Me.png)
+
+ Músicas menos populares do Please Please Me
+|musica|popularidade|
+|---|---|
+Chains              |47
+A Taste of Honey    |47
+There's a Place     |48
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Menos%20Populares%20do%20Please%20Please%20Me.png)
+
+Músicas mais populares do Revolver
+|musica|popularidade|
+|---|---|
+Eleanor Rigby                 |69
+Here, There and Everywhere    |62
+Yellow Submarine              |62
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20Populares%20do%20Revolver.png)
+
+ Músicas menos populares do Revolver
+|musica|popularidade|
+|---|---|
+Doctor Robert         |51
+I Want to Tell You    |51
+Love You To           |52
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Menos%20Populares%20do%20Revolver.png)
+
+Músicas mais populares do Rubber Soul
+|musica|popularidade|
+|---|---|
+In My Life                              |73
+Norwegian Wood (This Bird Has Flown)    |68
+Michelle                                |66
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20Populares%20do%20Rubber%20Soul.png)
+
+ Músicas menos populares do Rubber Soul
+|musica|popularidade|
+|---|---|
+What Goes On    |50
+The Word        |51
+Wait            |52
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Menos%20Populares%20do%20Rubber%20Soul.png)
+
+Músicas mais populares do Sgt. Pepper's Lonely Hearts Club Band
+|musica|popularidade|
+|---|---|
+Lucy in the Sky with Diamonds         |68
+With a Little Help from My Friends    |66
+A Day in the Life                     |65
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20Populares%20do%20Sgt.%20Pepper's%20Lonely%20Hearts%20Club%20Band.png)
+
+ Músicas menos populares do Sgt. Pepper's Lonely Hearts Club Band
+|musica|popularidade|
+|---|---|
+Good Morning Good Morning                          |49
+Sgt. Pepper's Lonely Hearts Club Band (Reprise)    |50
+Being for the Benefit of Mr. Kite!                 |51
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Menos%20Populares%20do%20Sgt.%20Pepper's%20Lonely%20Hearts%20Club%20Band.png)
+
+Músicas mais populares do The Beatles (white album)
+|musica|popularidade|
+|---|---|
+Blackbird                       |73
+Ob-La-Di, Ob-La-Da              |71
+While My Guitar Gently Weeps    |70
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20Populares%20do%20The%20Beatles%20(white%20album).png)
+
+ Músicas menos populares do The Beatles (white album)
+|musica|popularidade|
+|---|---|
+Revolution 9     |44
+Savoy Truffle    |47
+Good Night       |48
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Menos%20Populares%20do%20The%20Beatles%20(white%20album).png)
+
+Músicas mais populares do With The Beatles
+|musica|popularidade|
+|---|---|
+All My Loving          |67
+Till There Was You     |62
+Roll Over Beethoven    |57
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20Populares%20do%20With%20The%20Beatles.png)
+
+ Músicas menos populares do With The Beatles
+|musica|popularidade|
+|---|---|
+Little Child           |43|
+Not a Second Time      |45|
+I Wanna Be Your Man    |46|
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Menos%20Populares%20do%20With%20The%20Beatles.png)
+
+Músicas mais populares do Yellow Submarine
+|musica|popularidade|
+|---|---|
+Hey Bulldog         |52|
+Yellow Submarine    |47|
+Pepperland          |45|
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20Populares%20do%20Yellow%20Submarine.png)
+
+ Músicas menos populares do Yellow Submarine
+|musica|popularidade|
+|---|---|
+|Sea of Monsters          |31
+|Sea of Holes             |33
+|Pepperland Laid Waste    |33
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Menos%20Populares%20do%20Yellow%20Submarine.png)
+
+- Quais são as músicas mais longas e músicas mais curtas por Álbum?
+
+Músicas mais longas do A Hard Day's Night
+|musica|duração(ms)|
+|---|---|
+I Should Have Known Better    |163080
+Things We Said Today          |155333
+You Can't Do That             |154893
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20Longas%20do%20A%20Hard%20Day's%20Night.png)
+
+ Músicas mais curtas do A Hard Day's Night
+|musica|duração(ms)|
+|---|---|
+I'll Cry Instead               |     105987
+I'm Happy Just to Dance with You|    116373
+Tell Me Why                      |   128693
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20curtas%20do%20A%20Hard%20Day's%20Night.png)
+
+Músicas mais longas do Abbey Road
+|musica|duração(ms)|
+|---|---|
+I Want You (She's So Heavy)     |467320
+Come Together                   |259947
+You Never Give Me Your Money    |242973
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20Longas%20do%20Abbey%20Road.png)
+
+ Músicas mais curtas do Abbey Road
+|musica|duração(ms)|
+|---|---|
+Her Majesty         |25987
+Mean Mr. Mustard    |66533
+Polythene Pam       |72640
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20curtas%20do%20Abbey%20Road.png)
+
+Músicas mais longas do Beatles for Sale
+|musica|duração(ms)|
+|---|---|
+Honey Don't          |177427
+Eight Days a Week    |163600
+Mr. Moonlight        |158627
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20Longas%20do%20Beatles%20for%20Sale.png)
+
+ Músicas mais curtas do Beatles for Sale
+|musica|duração(ms)|
+|---|---|
+I'll Follow the Sun   | 108853
+Every Little Thing     |123800
+Words of Love          |124320
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20curtas%20do%20Beatles%20for%20Sale.png)
+
+Músicas mais longas do Help!
+|musica|duração(ms)|
+|---|---|
+Ticket to Ride          |189680
+Dizzy Miss Lizzy        |176507
+Tell Me What You See    |157987
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20Longas%20do%20Help!.png)
+
+ Músicas mais curtas do Help!
+|musica|duração(ms)|
+|---|---|
+It's Only Love           |116480
+I've Just Seen a Face    |125040
+Another Girl             |125360
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20curtas%20do%20Help!.png)
+
+Músicas mais longas do Let It Be
+|musica|duração(ms)|
+|---|---|
+Let It Be              |243027
+Dig a Pony             |235000
+Across the Universe    |228133
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20Longas%20do%20Let%20It%20Be.png)
+
+ Músicas mais curtas do Let It Be
+|musica|duração(ms)|
+|---|---|
+Maggie Mae     |40040
+Dig It         |50467
+I Me Mine     |145587
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20curtas%20do%20Let%20It%20Be.png)
+
+Músicas mais longas do Magical Mystery Tour
+|musica|duração(ms)|
+|---|---|
+I Am the Walrus|              275867
+Strawberry Fields Forever|    247320
+Blue Jay Way              |   235067
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20Longas%20do%20Magical%20Mystery%20Tour.png)
+
+ Músicas mais curtas do Magical Mystery Tour
+|musica|duração(ms)|
+|---|---|
+Flying  |                   135520
+Your Mother Should Know|    148413
+Magical Mystery Tour    |   170107
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20curtas%20do%20Magical%20Mystery%20Tour.png)
+
+Músicas mais longas do Please Please Me
+|musica|duração(ms)|
+|---|---|
+Anna (Go to Him)         |   177133
+I Saw Her Standing There  |  173947
+Baby It's You              | 160520
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20Longas%20do%20Please%20Please%20Me.png)
+
+ Músicas mais curtas do Please Please Me
+|musica|duração(ms)|
+|---|---|
+Misery   |                       108547
+There's a Place|                 110493
+Do You Want to Know a Secret |   117013
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20curtas%20do%20Please%20Please%20Me.png)
+
+Músicas mais longas do Revolver
+|musica|duração(ms)|
+|---|---|
+I'm Only Sleeping     |  180320
+Love You To            | 179827
+Tomorrow Never Knows    |179547 
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20Longas%20do%20Revolver.png)
+
+ Músicas mais curtas do Revolver
+|musica|duração(ms)|
+|---|---|
+For No One                |119813
+And Your Bird Can Sing   | 120493
+Eleanor Rigby             |126533
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20curtas%20do%20Revolver.png)
+
+Músicas mais longas do Rubber Soul
+|musica|duração(ms)|
+|---|---|
+You Won't See Me    |199960
+What Goes On        |168573
+Nowhere Man         |163693
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20Longas%20do%20Rubber%20Soul.png)
+
+ Músicas mais curtas do Rubber Soul
+|musica|duração(ms)|
+|---|---|
+Norwegian Wood (This Bird Has Flown)|    124693
+Wait                                 |   134720
+Think for Yourself                    |  138520
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20curtas%20do%20Rubber%20Soul.png)
+
+Músicas mais longas do Sgt. Pepper's Lonely Hearts Club Band
+|musica|duração(ms)|
+|---|---|
+A Day in the Life       |  337413
+Within You Without You   | 304667
+She's Leaving Home        |215160
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20Longas%20do%20Sgt.%20Pepper's%20Lonely%20Hearts%20Club%20Band.png)
+
+ Músicas mais curtas do Sgt. Pepper's Lonely Hearts Club Band
+|musica|duração(ms)|
+|---|---|
+Sgt. Pepper's Lonely Hearts Club Band (Reprise)|     79067
+Sgt. Pepper's Lonely Hearts Club Band           |   122893
+Fixing a Hole                                    |  156827
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20curtas%20do%20Sgt.%20Pepper's%20Lonely%20Hearts%20Club%20Band.png)
+
+Músicas mais longas do The Beatles (white album)
+|musica|duração(ms)|
+|---|---|
+Revolution 9                  |  502013
+While My Guitar Gently Weeps   | 285000
+Helter Skelter                  |269787
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20Longas%20do%20The%20Beatles%20(white%20album).png)
+
+ Músicas mais curtas do The Beatles (white album)
+|musica|duração(ms)|
+|---|---|
+Wild Honey Pie                   |   52973
+Why Don't We Do It in the Road?   | 101160
+I Will                             |105933
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20curtas%20do%20The%20Beatles%20(white%20album).png)
+
+Músicas mais longas do With The Beatles
+|musica|duração(ms)|
+|---|---|
+You Really Got a Hold on Me   | 181347
+Money (That's What I Want)     |169507
+Roll Over Beethoven            |165467
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20Longas%20do%20With%20The%20Beatles.png)
+
+Músicas mais curtas do With The Beatles
+|musica|duração(ms)|
+|---|---|
+Little Child           |106400
+I Wanna Be Your Man    |119507
+All I've Got to Do     |122573
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20curtas%20do%20With%20The%20Beatles.png)
+
+Músicas mais longas do Yellow Submarine
+|musica|duração(ms)|
+|---|---|
+It's All Too Much       |385013
+All You Need Is Love    |231213
+Sea of Monsters         |216693
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20Longas%20do%20Yellow%20Submarine.png)
+
+Músicas mais curtas do Yellow Submarine
+|musica|duração(ms)|
+|---|---|
+All Together Now         |         130893
+Pepperland Laid Waste     |        132773
+Yellow Submarine in Pepperland |   134027
+
+![](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Mais%20curtas%20do%20Yellow%20Submarine.png)
+
+- Quais são as músicas mais longas e músicas mais curtas [em toda a história da banda ou artista]?
+
+mais longas
+|musica|duração(ms)|
+|---|---|
+|Revolution 9                   |502013|
+|I Want You (She's So Heavy)    |467320|
+|It's All Too Much              |385013|
+
+![mais_longas_beatles](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Musicas%20Mais%20Longas%20dos%20Beatles.png)
+
+mais curtas
+|musica|duração(ms)|
+|---|---|
+|Her Majesty|    25987|
+|Maggie Mae|     40040|
+|Dig It|         50467|
+
+![mais_curtas_beatles](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Musicas%20Mais%20Curtas%20dos%20Beatles.png)
+
+- Quais são as músicas mais ouvidas e músicas menos ouvidas [em toda a história da banda ou artista]?
+
+mais populares
+|musica|popularidade|
+|---|---|
+|Here Comes the Sun|    82|
+|Let It Be|             78|
+|Come Together|         77|
+
+![mais_populares_beatles](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Musicas%20Mais%20Populares%20dos%20Beatles.png)
+
+menos populares
+|musica|popularidade|
+|---|---|
+|Her Majesty|              24|
+|Sea of Monsters|          31|
+|Pepperland Laid Waste|    33|
+
+![menos_populares_beatles](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Musicas%20Menos%20Populares%20dos%20Beatles.png)
+
+- Quais são os álbuns mais premiados?
+
+|album|numero de premios|numero de nomeacoes|
+|---|---|---|
+|Sgt. Pepper's Lonely Hearts Club Band|           4|                2|
+|Let It Be|           2|                1|
+|Abbey Road|           1|                2|
+
+![mais_premiados_beatles](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Albuns%20Mais%20Premiados%20dos%20Beatles.png)
+
+- Existe alguma relação entre a duração da música e sua popularidade?
+
+![correlacao_beatles](https://github.com/felipponn/BeatlesDataViz/blob/main/img/Popularidade%20x%20Dura%C3%A7%C3%A3o.png)
+
+A correlação entre popularidade e duração é : 0.1493056763080148.
+
 ## Grupo de Perguntas 2:
 
 - Quais são as palavras mais comuns nos títulos dos Álbuns?
@@ -162,7 +694,7 @@ Wordcloud:
 |Abbey Road|                           McCartney<br>Lennon<br>HArrison<br>Starr|  58.823529<br>41.176471<br>29.411765<br>11.764706|
 |Let It Be|                            McCartney<br>Lennon<br>HArrison<br>Starr|  66.666667<br>58.333333<br>33.333333<br>16.666667|
 
-![Gráfico das participações de cada membro por álbum](https://raw.githubusercontent.com/felipponn/BeatlesDataViz/main/img/popularidade_vocalista.png)
+![Gráfico das participações de cada membro por álbum](https://raw.githubusercontent.com/felipponn/BeatlesDataViz/main/img/participação_album.png)
 
 - Qual é a verborragia de cada álbum?
 
