@@ -133,11 +133,12 @@ def titulo_album_letras(dataframe):
     if isinstance(dataframe, pd.DataFrame): # Verifica se é um dataframe
         try: # Trata as exceções para essa função
             albuns = dataframe.index.get_level_values(0) # Seleciona todos os albuns do dataframe
-            serie_albuns = pd.Series(albuns) # Cria uma série de álbuns 
+            serie_albuns = pd.Series(albuns).str.lower() # Cria uma série de álbuns 
             array_albuns = serie_albuns.unique() # Elimina as repetições de álbuns
             letras = dataframe["lyrics"] # Seleciona todas as letras do dataframe
-            serie_letras = pd.Series(letras) # Cria uma série de letras 
+            serie_letras = pd.Series(letras).str.lower() # Cria uma série de letras 
             array_letras = serie_letras.unique() # Elimina as repetições de letras
+            print(array_letras)
             dicio_relacao = {}
             for album in array_albuns: # Verifica se os álbuns da série têm relação com as letras da série
                 dicio_relacao[album] = 0
@@ -169,10 +170,10 @@ def titulo_musica_letras(dataframe):
     if isinstance(dataframe, pd.DataFrame): # Verifica se é um dataframe
         try: # Trata as exceções para essa função
             musicas = dataframe.index.get_level_values(1) # Seleciona todos as músicas do dataframe
-            serie_musicas = pd.Series(musicas) # Cria uma série de músicas
+            serie_musicas = pd.Series(musicas).str.lower() # Cria uma série de músicas
             array_musicas = serie_musicas.unique() # Elimina as repetições de músicas
             letras = dataframe["lyrics"] # Seleciona todas as letras do dataframe
-            serie_letras = pd.Series(letras) # Cria uma série de letras
+            serie_letras = pd.Series(letras).str.lower() # Cria uma série de letras
             array_letras = serie_letras.unique() # Elimina as repetições de letras
             dicio_relacao = {} 
             for musica in array_musicas: # Verifica se as músicas da série têm relação com as letras da série

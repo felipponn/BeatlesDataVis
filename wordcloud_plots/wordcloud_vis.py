@@ -30,8 +30,7 @@ def palavras_frequentes_albuns(dataframe):
         plt.figure() # Plota a figura
         plt.imshow(wordcloud, interpolation="bilinear")
         plt.axis("off")
-        plt.show() # Mostra a Tag Cloud final
-        wordcloud.to_file("Tag_Cloud1.png") # Salva a figura
+        wordcloud.to_file("img/Tag_Cloud1.png") # Salva a figura
     except Exception as error:
             return error
 
@@ -61,8 +60,7 @@ def palavras_frequentes_musicas(dataframe):
         plt.figure() # Plota a figura
         plt.imshow(wordcloud, interpolation="bilinear")
         plt.axis("off")
-        plt.show() # Mostra a Tag Cloud final
-        wordcloud.to_file("Tag_Cloud2.png") # Salva a figura
+        wordcloud.to_file("img/Tag_Cloud2.png") # Salva a figura
     except Exception as error:
             return error
 
@@ -92,7 +90,6 @@ def palavras_frequentes_discografia(dataframe):
         plt.figure() # Plota a figura
         plt.imshow(wordcloud, interpolation="bilinear")
         plt.axis("off")
-        plt.show() # Mostra a Tag Cloud final
-        wordcloud.to_file("Tag_Cloud3.png") # Salva a figura
+        wordcloud.to_file("img/Tag_Cloud3.png") # Salva a figura
     except Exception as error:
             return error
