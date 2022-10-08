@@ -18,11 +18,12 @@ Wordcloud:
 ('She', 3), ('Pepperland', 3), ('Sea', 3), ('Know', 2), ("Won't", 2), ('Roll', 2), ('Hold', 2), ('on', 2), ('Money', 2), ('Should', 2), ('Better', 2), ('If', 2), ('Just', 2), ('with', 2), ('And', 2), ("Can't", 2), ('We', 2), ('When', 2), ('Home', 2), ('No', 2), ("Everybody's", 2), ('Hide', 2), ('Need', 2), ('Too', 2), ('Much',2), ('See', 2), ('Bird', 2), ('Through', 2), ('In', 2), ('Yellow', 2), ('Submarine', 2), ('Day', 2), ('For', 2), ('One', 2), ('Never', 2), ('Sgt.', 2), ("Pepper's", 2), ('Lonely', 2), ('Hearts', 2), ('Club', 2), ('Band', 2), ('Morning', 2), ('Blue', 2), ('Mother', 2), ('Is', 2), ('Dear', 2), ('Pie', 2), ('So', 2), ('Something', 2)]
 
 Wordcloud:
+
 ![alt text](https://github.com/felipponn/BeatlesDataViz/blob/modulo_funcoes/img/Tag_Cloud2.png?raw=true)
 
 - Quais são as palavras mais comuns nas letras das músicas, por Álbum?
 
-|album||
+|Álbum|Palavras mais comuns e suas contagens|
 |---|---|
 |A Hard Day's Night                       |[(you, 133), (I, 117), (to, 84), (me, 60), (lo...|
 |Abbey Road                               |[(you, 98), (the, 73), (I, 68), (to, 53), (me,...|
@@ -44,10 +45,13 @@ Wordcloud:
 ('little', 55), ('they', 55), ('man', 55), ('only', 54), ('oh', 54), ('you.', 53), ('number', 53), ('tell', 52), ('from', 52), ('down', 52), ('there', 51), ('said', 51), ('feel', 51), ('going', 51), ('What', 50), ('think', 50)]
 
 Wordcloud:
+
 ![alt text](https://github.com/felipponn/BeatlesDataViz/blob/modulo_funcoes/img/Tag_Cloud3.png?raw=true)
 
 - O título de um álbum é tema recorrente nas letras?
 
+|Álbum|Contagem de aparição de título|
+|---|---|
 |please please me                          |3|
 |with the beatles                          |0|
 |a hard day's night                        |6|
@@ -64,6 +68,8 @@ Wordcloud:
 
 - O título de uma música é tema recorrente nas letras?
 
+|Música|Contagem de aparição de título|
+|---|---|
 |i saw her standing there      |6|
 |misery                       |10|
 |anna (go to him)              |0|
