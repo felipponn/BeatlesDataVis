@@ -129,6 +129,7 @@ Wordcloud:
     |Yoko Ono                             |44.000000|
     |Carl Perkins                         |43.000000|
     |George Martin                        |36.000000|
+    
     [Gráfico das maiores médias de popularidade de compositores](https://raw.githubusercontent.com/felipponn/BeatlesDataViz/main/img/popularidade_compositor.png)
     - Analisando os créditos de vocais:
     
@@ -140,6 +141,7 @@ Wordcloud:
     |Starr                   |53.071429|
     |Sound Collage           |44.000000|
     |Instrumental            |38.750000|
+    
     [Gráfico das maiores médias de popularidade de vocalistas](https://raw.githubusercontent.com/felipponn/BeatlesDataViz/main/img/popularidade_vocalista.png)
 
 -  Qual a porcentagem de participação em créditos (vocais ou de composição) de cada membro em cada álbum?
@@ -159,6 +161,7 @@ Wordcloud:
 |Yellow Submarine|                     McCartney<br>Lennon<br>HArrison<br>Starr|  30.769231<br>38.461538<br>15.384615<br> 7.692308|
 |Abbey Road|                           McCartney<br>Lennon<br>HArrison<br>Starr|  58.823529<br>41.176471<br>29.411765<br>11.764706|
 |Let It Be|                            McCartney<br>Lennon<br>HArrison<br>Starr|  66.666667<br>58.333333<br>33.333333<br>16.666667|
+
 [Gráfico das participações de cada membro por álbum](https://raw.githubusercontent.com/felipponn/BeatlesDataViz/main/img/popularidade_vocalista.png)
 
 - Qual é a verborragia de cada álbum?
@@ -178,4 +181,5 @@ Wordcloud:
 |Yellow Submarine                                        |0.36|
 |Abbey Road                                              |0.91|
 |Let It Be                                               |0.94|
+
 [Gráfico de verborragia média, em palavras por segundo, por álbum](https://raw.githubusercontent.com/felipponn/BeatlesDataViz/main/img/verborragia_album.png)
