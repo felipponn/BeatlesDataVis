@@ -11,6 +11,7 @@ def palavras_comuns_albuns(dataframe):
     :return: Retorna as palavras mais comuns nos títulos dos álbuns
     :rtype: list
     """
+    
     if isinstance(dataframe, pd.DataFrame): # Verifica se é um dataframe
         try: # Trata as exceções para essa função
             albuns = dataframe.index.get_level_values(0) # Seleciona todos os albuns do dataframe
@@ -21,7 +22,7 @@ def palavras_comuns_albuns(dataframe):
                 for palavra in titulo: # Adiciona cada palavra dos títulos dos albuns em uma lista criada
                     lista_palavras.append(palavra)
             quantidade_palavra = collections.Counter(lista_palavras) # Verifica a quantidade de vezes que cada palavra aparece na lista
-            palavras_comuns = quantidade_palavra.most_common(10) # Seleciona as palavras mais comuns da lista
+            palavras_comuns = quantidade_palavra.most_common(100) # Seleciona as palavras mais comuns da lista
         except Exception as error:
             return error
     else:
@@ -30,20 +31,18 @@ def palavras_comuns_albuns(dataframe):
     return palavras_comuns
  
 ###############################################################################
- 
-# Quais são as palavras mais comuns nos títulos das músicas?
- 
-def palavras_comuns_musicas(dataframe):
-    """_summary_
 
-    :param a: _description_
-    :type a: int
-    :param c: _description_, defaults to [1,2]
-    :type c: list, optional
-    :raises AssertionError: _description_
-    :return: _description_
-    :rtype: _type_
+def palavras_comuns_musicas(dataframe):
+    """Esta função seleciona as músicas do dataframe e transforma numa lista de
+    strings com as palavras de todas as músicas. Depois conta a frequência de cada
+    palavra.
+
+    :param dataframe: Base de dados
+    :type dataframe: pd.DataFrame
+    :return: Retorna as palavras mais comuns nos títulos das músicas
+    :rtype: list
     """
+    
     if isinstance(dataframe, pd.DataFrame): # Verifica se é um dataframe
         try: # Trata as exceções para essa função
             musicas = dataframe.index.get_level_values(1) # Seleciona todos as músicas do dataframe
@@ -54,7 +53,7 @@ def palavras_comuns_musicas(dataframe):
                 for palavra in titulo: # Adiciona cada palavra dos títulos das músicas em uma lista criada
                     lista_palavras.append(palavra)
             quantidade_palavra = collections.Counter(lista_palavras) # Verifica a quantidade de vezes que cada palavra aparece na lista
-            palavras_comuns = quantidade_palavra.most_common(10) # Seleciona as palavras mais comuns da lista
+            palavras_comuns = quantidade_palavra.most_common(100) # Seleciona as palavras mais comuns da lista
         except Exception as error:
             return error
     else:
@@ -63,20 +62,18 @@ def palavras_comuns_musicas(dataframe):
     return palavras_comuns
 
 ###############################################################################
- 
-# Quais são as palavras mais comuns nas letras das músicas, em toda a discografia?
- 
-def palavras_comuns_letras_disco(dataframe):
-    """_summary_
 
-    :param a: _description_
-    :type a: int
-    :param c: _description_, defaults to [1,2]
-    :type c: list, optional
-    :raises AssertionError: _description_
-    :return: _description_
-    :rtype: _type_
+def palavras_comuns_letras_disco(dataframe):
+    """Esta função seleciona as letras das músicas do dataframe e transforma numa lista de
+    strings com as palavras nas letras de todas as músicas. Depois conta a frequência de cada
+    palavra.
+
+    :param dataframe: Base de dados
+    :type dataframe: pd.DataFrame
+    :return: Retorna as palavras mais comuns nas letras das músicas, em toda a discografia
+    :rtype: list
     """
+    
     if isinstance(dataframe, pd.DataFrame): # Verifica se é um dataframe
         try: # Trata as exceções para essa função
             letras = dataframe["lyrics"] # Seleciona todas as letras das músicas de toda a discografia
@@ -89,7 +86,7 @@ def palavras_comuns_letras_disco(dataframe):
                 for palavra in palavras: # Adiciona cada palavra das letras das músicas em uma lista criada
                     lista_palavras.append(palavra)
             quantidade_palavra = collections.Counter(lista_palavras) # Verifica a quantidade de vezes que cada palavra aparece na lista
-            palavras_comuns = quantidade_palavra.most_common(10) # Seleciona as palavras mais comuns da lista
+            palavras_comuns = quantidade_palavra.most_common(100) # Seleciona as palavras mais comuns da lista
         except Exception as error:
             return error
     else:
@@ -98,20 +95,18 @@ def palavras_comuns_letras_disco(dataframe):
     return palavras_comuns
  
 ###############################################################################
- 
- # Quais são as palavras mais comuns nas letras das músicas, por álbum?
- 
-def palavras_comuns_letras_albuns(dataframe):
-    """_summary_
 
-    :param a: _description_
-    :type a: int
-    :param c: _description_, defaults to [1,2]
-    :type c: list, optional
-    :raises AssertionError: _description_
-    :return: _description_
-    :rtype: _type_
+def palavras_comuns_letras_albuns(dataframe):
+    """Esta função seleciona as letras das músicas do dataframe e transforma numa lista de
+    strings com as palavras nas letras de todas as músicas, agrupadas por álbum. Depois conta a frequência de cada
+    palavra.
+
+    :param dataframe: Base de dados
+    :type dataframe: pd.DataFrame
+    :return: Retorna as palavras mais comuns nas letras das músicas, agrupadas por álbum
+    :rtype: pd.core.series.Series
     """
+    
     if isinstance(dataframe, pd.DataFrame): # Verifica se é um dataframe
         try: # Trata as exceções para essa função
             album_data = dataframe.groupby("album").apply(palavras_comuns_letras_disco)
@@ -123,28 +118,27 @@ def palavras_comuns_letras_albuns(dataframe):
     return album_data
  
  ###############################################################################
- 
-# O título de um álbum é tema recorrente nas letras?
- 
-def titulo_album_letras(dataframe):
-    """_summary_
 
-    :param a: _description_
-    :type a: int
-    :param c: _description_, defaults to [1,2]
-    :type c: list, optional
-    :raises AssertionError: _description_
-    :return: _description_
-    :rtype: _type_
+def titulo_album_letras(dataframe):
+    """Esta função seleciona todos os álbuns únicos do dataframe e transforma numa série,
+    seleciona todas as letras das músicas e também transforma numa série, e depois verifica 
+    a recorrência de cada álbum nas letras, como dicionário.
+
+    :param dataframe: Base de dados
+    :type dataframe: pd.DataFrame
+    :return: Retorna a recorrência dos álbuns nas letras
+    :rtype: dict
     """
+    
     if isinstance(dataframe, pd.DataFrame): # Verifica se é um dataframe
         try: # Trata as exceções para essa função
             albuns = dataframe.index.get_level_values(0) # Seleciona todos os albuns do dataframe
-            serie_albuns = pd.Series(albuns) # Cria uma série de álbuns 
+            serie_albuns = pd.Series(albuns).str.lower() # Cria uma série de álbuns 
             array_albuns = serie_albuns.unique() # Elimina as repetições de álbuns
             letras = dataframe["lyrics"] # Seleciona todas as letras do dataframe
-            serie_letras = pd.Series(letras) # Cria uma série de letras 
+            serie_letras = pd.Series(letras).str.lower() # Cria uma série de letras 
             array_letras = serie_letras.unique() # Elimina as repetições de letras
+            print(array_letras)
             dicio_relacao = {}
             for album in array_albuns: # Verifica se os álbuns da série têm relação com as letras da série
                 dicio_relacao[album] = 0
@@ -161,27 +155,25 @@ def titulo_album_letras(dataframe):
     return dicio_relacao
  
 ###############################################################################
- 
-# O título de uma música é tema recorrente nas letras?
- 
-def titulo_musica_letras(dataframe):
-    """_summary_
 
-    :param a: _description_
-    :type a: int
-    :param c: _description_, defaults to [1,2]
-    :type c: list, optional
-    :raises AssertionError: _description_
-    :return: _description_
-    :rtype: _type_
+def titulo_musica_letras(dataframe):
+    """Esta função seleciona todas as músicas do dataframe e transforma numa série,
+    seleciona todas as letras das músicas e também transforma numa série, e depois verifica 
+    a recorrência de cada múscia nas letras, como dicionário.
+    
+    :param dataframe: Base de dados
+    :type dataframe: pd.DataFrame
+    :return: Retorna a recorrência das músicas nas letras
+    :rtype: dict
     """
+    
     if isinstance(dataframe, pd.DataFrame): # Verifica se é um dataframe
         try: # Trata as exceções para essa função
             musicas = dataframe.index.get_level_values(1) # Seleciona todos as músicas do dataframe
-            serie_musicas = pd.Series(musicas) # Cria uma série de músicas
+            serie_musicas = pd.Series(musicas).str.lower() # Cria uma série de músicas
             array_musicas = serie_musicas.unique() # Elimina as repetições de músicas
             letras = dataframe["lyrics"] # Seleciona todas as letras do dataframe
-            serie_letras = pd.Series(letras) # Cria uma série de letras
+            serie_letras = pd.Series(letras).str.lower() # Cria uma série de letras
             array_letras = serie_letras.unique() # Elimina as repetições de letras
             dicio_relacao = {} 
             for musica in array_musicas: # Verifica se as músicas da série têm relação com as letras da série
