@@ -127,7 +127,7 @@ def titulo_album_letras(dataframe):
     :param dataframe: Base de dados
     :type dataframe: pd.DataFrame
     :return: Retorna a recorrência dos álbuns nas letras
-    :rtype: dict
+    :rtype: pd.core.series.Series
     """
     
     if isinstance(dataframe, pd.DataFrame): # Verifica se é um dataframe
@@ -138,7 +138,6 @@ def titulo_album_letras(dataframe):
             letras = dataframe["lyrics"] # Seleciona todas as letras do dataframe
             serie_letras = pd.Series(letras).str.lower() # Cria uma série de letras 
             array_letras = serie_letras.unique() # Elimina as repetições de letras
-            print(array_letras)
             dicio_relacao = {}
             for album in array_albuns: # Verifica se os álbuns da série têm relação com as letras da série
                 dicio_relacao[album] = 0
@@ -147,12 +146,13 @@ def titulo_album_letras(dataframe):
                         continue
                     relacionamento = letra.count(album)
                     dicio_relacao[album] += relacionamento # Adiciona a relação álbum/letra em um dicionário
+                    relacao = pd.Series(dicio_relacao)
         except Exception as error:
             return error
     else:
         print("Não é do tipo pd.DataFrame! Insira um dataframe adequado.")
     
-    return dicio_relacao
+    return relacao
  
 ###############################################################################
 
@@ -164,7 +164,7 @@ def titulo_musica_letras(dataframe):
     :param dataframe: Base de dados
     :type dataframe: pd.DataFrame
     :return: Retorna a recorrência das músicas nas letras
-    :rtype: dict
+    :rtype: pd.core.series.Series
     """
     
     if isinstance(dataframe, pd.DataFrame): # Verifica se é um dataframe
@@ -183,9 +183,10 @@ def titulo_musica_letras(dataframe):
                         continue
                     relacionamento = letra.count(musica)
                     dicio_relacao[musica] += relacionamento # Adiciona a relação música/letra em um dicionário
+                    relacao = pd.Series(dicio_relacao)
         except Exception as error:
             return error
     else:
         print("Não é do tipo pd.DataFrame! Insira um dataframe adequado.")
     
-    return dicio_relacao
+    return relacao
